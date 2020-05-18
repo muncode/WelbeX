@@ -14,13 +14,13 @@
         <thead>
             <tr>
                 <td><select id="column">
-                        <option>Выберите колонку:</option>
+                        <option>Выберите колонку</option>
                         <option value="1">Имя</option>
                         <option value="2">Количество</option>
                         <option value="3">Расстояние</option>
                     </select></td>
                 <td><select id="condition">
-                        <option>Выберите условие:</option>
+                        <option>Выберите условие</option>
                         <option value="1">Равно</option>
                         <option value="2">Содержит</option>
                         <option value="3">Больше</option>
