@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title> SPA </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script type="text/javascript" src="js/table.js"></script>
     <? require "database/bd.php"; ?>
 </head>
