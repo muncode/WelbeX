@@ -1,5 +1,5 @@
 # WelbeX
-http://beee.zzz.com.ua/
+http://beee.zzz.com.ua/Welbex/
 
 Нужно разработать таблицу в формате Single Page Application.
 
