@@ -3,7 +3,7 @@
      let cond = condition.value;
      let find = findValue.value;
 
-     const ravno = i => {
+     const equal = i => {
          for (let j = 0; j < length; j++) {
              if (find == table.rows[j].cells[i].innerHTML) {
                  table.rows[j].style.display = "table-row";
@@ -21,7 +21,7 @@
              }
          }
      }
-     const bolshe = i => {
+     const more = i => {
          for (let j = 0; j < length; j++) {
              if (table.rows[j].cells[i].innerHTML - find > 0) {
                  table.rows[j].style.display = "table-row";
@@ -30,7 +30,7 @@
              }
          }
      }
-     const menshe = i => {
+     const less = i => {
          for (let j = 0; j < length; j++) {
              if (table.rows[j].cells[i].innerHTML - find < 0) {
                  table.rows[j].style.display = "table-row";
@@ -42,15 +42,16 @@
 
      for (let i = 1; i <= 3; i++) {
          if (i == col && cond == 1) {
-             ravno(i)
+             equal(i)
          } else if (i == col && cond == 2) {
              exec(i)
          } else if (i == col && cond == 3) {
-             bolshe(i)
+             more(i)
          } else if (i == col && cond == 4) {
-             menshe(i)
+             less(i)
          }
      }
+     nav.style.display = "none";
  }
 
  let sortFlag;
